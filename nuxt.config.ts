@@ -5,11 +5,12 @@ export default defineNuxtConfig({
   alias: {
     assets: "/<rotDir>/assets",
   },
-
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
+  modules: ["@nuxt/content", "@nuxt/image", "@pinia/nuxt"],
+ 
 });

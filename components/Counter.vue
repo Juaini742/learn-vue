@@ -1,9 +1,5 @@
 <script setup lang="ts">
-const counter = useCounter()
-
-useHead({
-  title: "Custom Learning Nuxr 3"
-})
+const counter = useState('counter', () => 0)
 </script>
 
 <template>

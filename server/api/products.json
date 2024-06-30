@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "type": "Single",
+      "price": 300000,
+      "description": "Kamar single dengan satu tempat tidur.",
+      "occupancy": 1,
+      "facilities": ["AC", "TV", "Wi-Fi"],
+      "images": [
+        "https://example.com/images/room1.jpg",
+        "https://example.com/images/room1-2.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "Double",
+      "price": 400000,
+      "description": "Kamar double dengan dua tempat tidur.",
+      "occupancy": 2,
+      "facilities": ["AC", "TV", "Wi-Fi", "Mini Bar"],
+      "images": [
+        "https://example.com/images/room2.jpg",
+        "https://example.com/images/room2-2.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "Suite",
+      "price": 500000,
+      "description": "Kamar suite dengan ruang tamu dan kamar tidur terpisah.",
+      "occupancy": 3,
+      "facilities": ["AC", "TV", "Wi-Fi", "Mini Bar", "Jacuzzi"],
+      "images": [
+        "https://example.com/images/room3.jpg",
+        "https://example.com/images/room3-2.jpg"
+      ]
+    }
+  ]
+  

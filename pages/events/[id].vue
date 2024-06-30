@@ -6,8 +6,9 @@
 
 <script setup>
 const route = useRoute()
-const nuxt = useNuxtApp()
 
-console.log(nuxt)
+useHead({
+    title: `This is custom page ID: ${route.params.id}`
+})
 
 </script>

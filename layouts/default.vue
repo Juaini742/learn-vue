@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-red-500">
+  <div>
     <p>Default Layouts</p>
     <slot></slot>
   </div>
